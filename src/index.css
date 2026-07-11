@@ -116,6 +116,10 @@
   .perspective {
     perspective: 1000px;
   }
+
+  .animate-marquee-reverse {
+    animation: marquee 55s linear infinite reverse;
+  }
 }
 
 /* Custom scrollbar */
