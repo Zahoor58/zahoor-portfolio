@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Lock, Building2 } from 'lucide-react';
 import { projects, projectFilters, type Project, type ProjectImage } from '../data';
 
 const accentMap: Record<string, { ring: string; text: string; bg: string; dot: string }> = {
@@ -107,15 +106,10 @@ function ProjectCarousel({
 
 function ProjectShowcase({ project, index }: { project: Project; index: number }) {
   const a = accentMap[project.accent] ?? accentMap.accent;
-  const isPrivate = project.company.toLowerCase().includes('client');
 
   const info = (
     <div className="flex flex-col justify-center">
       <div className="flex flex-wrap items-center gap-2">
-        <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-800/50 px-3 py-1 text-xs font-medium text-ink-300">
-          {isPrivate ? <Lock className="h-3 w-3" /> : <Building2 className="h-3 w-3" />}
-          {project.company}
-        </span>
         <span className={`rounded-full bg-ink-800/50 px-3 py-1 text-xs font-medium ${a.text} ring-1 ring-inset ${a.ring}`}>
           {project.category}
         </span>
