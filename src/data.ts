@@ -97,6 +97,12 @@ export const education = [
   { degree: 'Certified Full Stack Developer', school: 'Udemy' },
 ];
 
+export type ProjectImage = {
+  src: string;
+  label: string;
+  mockup: 'browser' | 'phone';
+};
+
 export type Project = {
   name: string;
   tagline: string;
@@ -107,6 +113,8 @@ export type Project = {
   tags: string[];
   filters: string[];
   accent: string;
+  images: ProjectImage[];
+  reverse?: boolean;
 };
 
 export const projectFilters = ['All', 'Laravel & PHP', 'Python & AI', 'Vue.js', 'React Native'];
@@ -123,6 +131,12 @@ export const projects: Project[] = [
     tags: ['Laravel', 'Vue.js', 'UX', 'Lead Capture'],
     filters: ['Laravel & PHP', 'Vue.js'],
     accent: 'accent',
+    images: [
+      { src: 'assets/projects/hrpal-home.png', label: 'Homepage', mockup: 'browser' },
+      { src: 'assets/projects/hrpal-dashboard.png', label: 'Dashboard', mockup: 'browser' },
+      { src: 'assets/projects/hrpal-documents.png', label: 'Document Library', mockup: 'browser' },
+      { src: 'assets/projects/hrpal-pricing.png', label: 'Pricing', mockup: 'browser' },
+    ],
   },
   {
     name: 'Demos Platform — Civic Engagement',
@@ -135,6 +149,13 @@ export const projects: Project[] = [
     tags: ['Laravel', 'Congress API', 'OpenStates API', 'Civic Tech'],
     filters: ['Laravel & PHP'],
     accent: 'cyan',
+    images: [
+      { src: 'assets/projects/demos-2.png', label: 'Track Representatives', mockup: 'phone' },
+      { src: 'assets/projects/demos-4.png', label: 'Civic Dashboard', mockup: 'phone' },
+      { src: 'assets/projects/demos-5.png', label: 'Your Representatives', mockup: 'phone' },
+      { src: 'assets/projects/demos-admin.png', label: 'Admin Dashboard', mockup: 'browser' },
+    ],
+    reverse: true,
   },
   {
     name: 'Neighborhood News Network',
@@ -147,6 +168,13 @@ export const projects: Project[] = [
     tags: ['React Native', 'Laravel', 'PHP', 'Local News', 'Mobile App'],
     filters: ['Laravel & PHP', 'React Native'],
     accent: 'amber',
+    images: [
+      { src: 'assets/projects/nnn-2.png', label: 'Article List', mockup: 'phone' },
+      { src: 'assets/projects/nnn-1.png', label: 'Home', mockup: 'phone' },
+      { src: 'assets/projects/nnn-3.png', label: 'Splash', mockup: 'phone' },
+      { src: 'assets/projects/nnn-admin.png', label: 'Admin Dashboard', mockup: 'browser' },
+    ],
+    reverse: true,
   },
   {
     name: 'PilotIQ — Smart Travel App',
@@ -159,6 +187,12 @@ export const projects: Project[] = [
     tags: ['React Native', 'Laravel', 'PHP', 'Travel App'],
     filters: ['Laravel & PHP', 'React Native'],
     accent: 'accent',
+    images: [
+      { src: 'assets/projects/travel-2.png', label: 'Create Account', mockup: 'phone' },
+      { src: 'assets/projects/travel-1.png', label: 'Splash', mockup: 'phone' },
+      { src: 'assets/projects/travel-5.png', label: 'Trip Detail', mockup: 'phone' },
+      { src: 'assets/projects/pilotiq-admin.png', label: 'Admin Dashboard', mockup: 'browser' },
+    ],
   },
   {
     name: 'HealthClinicMD — Telehealth Wellness Platform',
@@ -171,6 +205,12 @@ export const projects: Project[] = [
     tags: ['WordPress', 'PHP', 'Telehealth', 'Analytics'],
     filters: ['Laravel & PHP'],
     accent: 'cyan',
+    images: [
+      { src: 'assets/projects/hcmd-hero.png', label: 'Homepage', mockup: 'browser' },
+      { src: 'assets/projects/hcmd-testimonials.png', label: 'Testimonials', mockup: 'browser' },
+      { src: 'assets/projects/hcmd-admin.png', label: 'Admin Dashboard', mockup: 'browser' },
+    ],
+    reverse: true,
   },
   {
     name: 'Kapient — Website Error Monitoring',
@@ -183,6 +223,12 @@ export const projects: Project[] = [
     tags: ['PHP', 'Laravel', 'MySQL', 'Bootstrap'],
     filters: ['Laravel & PHP'],
     accent: 'accent',
+    images: [
+      { src: 'assets/projects/kapient-hero.png', label: 'Homepage', mockup: 'browser' },
+      { src: 'assets/projects/kapient-monitoring.png', label: 'Monitoring', mockup: 'browser' },
+      { src: 'assets/projects/kapient-impact.png', label: 'Impact', mockup: 'browser' },
+    ],
+    reverse: true,
   },
   {
     name: 'Utilidata — Grid Optimization Platform',
@@ -195,6 +241,11 @@ export const projects: Project[] = [
     tags: ['Django', 'AWS', 'PostgreSQL'],
     filters: ['Python & AI'],
     accent: 'amber',
+    images: [
+      { src: 'assets/projects/utilidata-hero.png', label: 'Homepage', mockup: 'browser' },
+      { src: 'assets/projects/utilidata-quotes.png', label: 'Partnerships', mockup: 'browser' },
+      { src: 'assets/projects/utilidata-news.png', label: 'In the News', mockup: 'browser' },
+    ],
   },
   {
     name: 'Med-Future — Hospital Management Portal',
@@ -207,6 +258,11 @@ export const projects: Project[] = [
     tags: ['Laravel', 'MySQL', 'JavaScript', 'Ajax'],
     filters: ['Laravel & PHP'],
     accent: 'cyan',
+    images: [
+      { src: 'assets/projects/medfuture-dashboard.png', label: 'Dashboard', mockup: 'browser' },
+      { src: 'assets/projects/medfuture-ehr.png', label: 'Patient EHR', mockup: 'browser' },
+    ],
+    reverse: true,
   },
   {
     name: 'Biblepics — AI Bible Search & Localization',
@@ -219,6 +275,12 @@ export const projects: Project[] = [
     tags: ['Django', 'OpenAI GPT-3', 'PostgreSQL', 'Localization'],
     filters: ['Python & AI'],
     accent: 'accent',
+    images: [
+      { src: 'assets/projects/biblepics-hero.png', label: 'Search Engine', mockup: 'browser' },
+      { src: 'assets/projects/biblepics-features.png', label: 'Services', mockup: 'browser' },
+      { src: 'assets/projects/biblepics-blog.png', label: 'Multilingual', mockup: 'browser' },
+    ],
+    reverse: true,
   },
   {
     name: 'CRM for Transaction Tracking',
@@ -231,6 +293,10 @@ export const projects: Project[] = [
     tags: ['Python', 'Django', 'CSV Parsing', 'Data Viz'],
     filters: ['Python & AI'],
     accent: 'amber',
+    images: [
+      { src: 'assets/projects/crm-dashboard.png', label: 'Dashboard', mockup: 'browser' },
+      { src: 'assets/projects/crm-analytics.png', label: 'Analytics', mockup: 'browser' },
+    ],
   },
   {
     name: 'Subscription Platform Builders',
@@ -243,6 +309,11 @@ export const projects: Project[] = [
     tags: ['Laravel', 'Angular', 'React', 'TypeScript'],
     filters: ['Laravel & PHP'],
     accent: 'cyan',
+    images: [
+      { src: 'assets/projects/builder-canvas.png', label: 'Page Builder', mockup: 'browser' },
+      { src: 'assets/projects/builder-plans.png', label: 'Plans', mockup: 'browser' },
+    ],
+    reverse: true,
   },
   {
     name: 'Business Automation Platforms',
@@ -255,6 +326,10 @@ export const projects: Project[] = [
     tags: ['Laravel', 'MySQL', 'Ajax', 'jQuery'],
     filters: ['Laravel & PHP'],
     accent: 'accent',
+    images: [
+      { src: 'assets/projects/bizauto-orders.png', label: 'Orders', mockup: 'browser' },
+      { src: 'assets/projects/bizauto-notifications.png', label: 'Notifications', mockup: 'browser' },
+    ],
   },
   {
     name: 'Secure Auth & Payment APIs',
@@ -267,6 +342,11 @@ export const projects: Project[] = [
     tags: ['Python', 'Django REST Framework', 'SQLite'],
     filters: ['Python & AI'],
     accent: 'amber',
+    images: [
+      { src: 'assets/projects/authapi-dashboard.png', label: 'API Dashboard', mockup: 'browser' },
+      { src: 'assets/projects/authapi-payments.png', label: 'Payments', mockup: 'browser' },
+    ],
+    reverse: true,
   },
 ];
 
