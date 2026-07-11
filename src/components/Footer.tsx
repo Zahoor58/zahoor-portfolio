@@ -58,7 +58,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-8 border-t border-ink-800 pt-6 text-center">
           <p className="text-xs text-ink-500">
-            © {new Date().getFullYear()} Zahoor Ahmed. Senior Software Engineer — Laravel, PHP & Django Specialist.
+            © {new Date().getFullYear()} Zahoor Ahmed. Senior Software Engineer . Laravel, PHP & Django Specialist.
           </p>
         </div>
       </div>

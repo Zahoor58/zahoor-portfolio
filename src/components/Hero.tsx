@@ -34,7 +34,7 @@ export default function Hero() {
 
           <p className="reveal reveal-delay-2 mt-6 font-display text-lg font-medium text-ink-200 sm:text-xl md:text-2xl">
             {profile.role}
-            <span className="mx-3 text-ink-600">—</span>
+            <span className="mx-3 text-ink-600">.</span>
             <span className="text-accent-400">{profile.tagline}</span>
           </p>
 

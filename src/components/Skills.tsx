@@ -25,7 +25,7 @@ export default function Skills() {
             Technologies I build with
           </h2>
           <p className="mt-4 text-base text-ink-400 md:text-lg">
-            Five years of deep, hands-on experience across the full stack — from backend architecture and database design to cloud deployment and payment integrations.
+            Five years of deep, hands-on experience across the full stack . from backend architecture and database design to cloud deployment and payment integrations.
           </p>
         </div>
 

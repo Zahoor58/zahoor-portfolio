@@ -2,7 +2,7 @@ export const profile = {
   name: 'Zahoor Ahmed',
   role: 'Senior Software Engineer',
   tagline: 'Laravel, PHP & Django Specialist',
-  bio: 'Senior software engineer with 5+ years building backend systems and APIs for SaaS, healthcare, energy, and civic-tech platforms — currently at HBOX Digital, previously Mixvoip and Techleadz. I specialize in Laravel, PHP, and Django, turning complex requirements into secure, production-ready systems that scale.',
+  bio: 'Senior software engineer with 5+ years building backend systems and APIs for SaaS, healthcare, energy, and civic-tech platforms . currently at HBOX Digital, previously Mixvoip and Techleadz. I specialize in Laravel, PHP, and Django, turning complex requirements into secure, production-ready systems that scale.',
   github: 'https://github.com/Zahoor58',
   upwork: 'https://www.upwork.com/freelancers/~0164a665214b44c653',
   location: 'Lahore, Pakistan',
@@ -51,7 +51,7 @@ export const experience = [
     period: 'Jan 2026 – Present',
     location: '',
     description:
-      'Building end-to-end product features across HR-tech and civic-tech platforms — including the HR Pal product website for an Ontario HR/safety compliance platform, and Laravel backend services for the Demos civic-engagement platform, integrating the Congress and OpenStates APIs for bill discovery and representative tracking.',
+      'Building end-to-end product features across HR-tech and civic-tech platforms . including the HR Pal product website for an Ontario HR/safety compliance platform, and Laravel backend services for the Demos civic-engagement platform, integrating the Congress and OpenStates APIs for bill discovery and representative tracking.',
     tags: ['Laravel', 'Vue.js', 'Congress API', 'OpenStates API'],
   },
   {
@@ -69,7 +69,7 @@ export const experience = [
     period: 'May 2022 – Sep 2025',
     location: 'Lahore, Pakistan',
     description:
-      'Delivered full-stack products in Laravel, Angular, and MySQL for subscription, payment, and data-management workflows serving 10k+ users — optimizing queries to cut page load times by 60% and integrating Stripe/Paymob payment flows.',
+      'Delivered full-stack products in Laravel, Angular, and MySQL for subscription, payment, and data-management workflows serving 10k+ users . optimizing queries to cut page load times by 60% and integrating Stripe/Paymob payment flows.',
     tags: ['Laravel', 'Angular', 'MySQL', 'Stripe'],
   },
   {
@@ -120,10 +120,10 @@ export const projectFilters = ['All', 'Laravel & PHP', 'Python & AI', 'Vue.js', 
 
 export const projects: Project[] = [
   {
-    name: 'HR Pal — HR & Safety Compliance Platform',
+    name: 'HR Pal . HR & Safety Compliance Platform',
     tagline: 'HR & Safety Compliance',
     description:
-      'Designed and built the complete website for HR Pal, an Ontario HR and safety compliance platform — showcasing AI-assisted guidance, a compliance document library, pricing, and lead-capture flows for small and mid-sized businesses.',
+      'Designed and built the complete website for HR Pal, an Ontario HR and safety compliance platform . showcasing AI-assisted guidance, a compliance document library, pricing, and lead-capture flows for small and mid-sized businesses.',
     category: 'HR Tech',
     stack: ['Laravel', 'Vue'],
     tags: ['Laravel', 'Vue.js', 'UX', 'Lead Capture'],
@@ -137,10 +137,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: 'Demos Platform — Civic Engagement',
+    name: 'Demos Platform . Civic Engagement',
     tagline: 'Civic Engagement',
     description:
-      'Engineered Laravel backend services for a civic-engagement platform that helps users read plain-language bill summaries, vote on active legislation, track representatives, and follow proposals — powered by a unified API layer integrating Congress.gov and OpenStates.',
+      'Engineered Laravel backend services for a civic-engagement platform that helps users read plain-language bill summaries, vote on active legislation, track representatives, and follow proposals . powered by a unified API layer integrating Congress.gov and OpenStates.',
     category: 'Civic Tech',
     stack: ['Laravel', 'Congress API', 'OpenStates API'],
     tags: ['Laravel', 'Congress API', 'OpenStates API', 'Civic Tech'],
@@ -158,7 +158,7 @@ export const projects: Project[] = [
     name: 'Neighborhood News Network',
     tagline: 'Local News Platform',
     description:
-      'A full-stack local news platform with a Laravel backend and a React Native mobile app. Users get real-time local news filtered by county and category, with breaking news alerts and subscriptions — backed by an admin dashboard for managing posts, categories, counties, and user submissions.',
+      'A full-stack local news platform with a Laravel backend and a React Native mobile app. Users get real-time local news filtered by county and category, with breaking news alerts and subscriptions . backed by an admin dashboard for managing posts, categories, counties, and user submissions.',
     category: 'Local News',
     stack: ['Laravel', 'React Native'],
     tags: ['React Native', 'Laravel', 'PHP', 'Local News', 'Mobile App'],
@@ -173,10 +173,10 @@ export const projects: Project[] = [
     reverse: true,
   },
   {
-    name: 'PilotIQ — Smart Travel App',
+    name: 'PilotIQ . Smart Travel App',
     tagline: 'Travel Companion',
     description:
-      'A full-stack travel companion app built with React Native and a Laravel backend. Users can discover destinations, create and manage trips, track shared budgets, and explore curated places — backed by an operations console for managing users, imports, locations, trips, and support.',
+      'A full-stack travel companion app built with React Native and a Laravel backend. Users can discover destinations, create and manage trips, track shared budgets, and explore curated places . backed by an operations console for managing users, imports, locations, trips, and support.',
     category: 'Travel',
     stack: ['React Native', 'Laravel'],
     tags: ['React Native', 'Laravel', 'PHP', 'Travel App'],
@@ -190,10 +190,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: 'HealthClinicMD — Telehealth Wellness Platform',
+    name: 'HealthClinicMD . Telehealth Wellness Platform',
     tagline: 'Telehealth & Analytics',
     description:
-      'Built the marketing site and a custom admin analytics dashboard for a telehealth wellness provider — tracking patients, partners, revenue split, and commissions across consult fees and medication sales in real time.',
+      'Built the marketing site and a custom admin analytics dashboard for a telehealth wellness provider . tracking patients, partners, revenue split, and commissions across consult fees and medication sales in real time.',
     category: 'Telehealth',
     stack: ['WordPress', 'PHP'],
     tags: ['WordPress', 'PHP', 'Telehealth', 'Analytics'],
@@ -207,10 +207,10 @@ export const projects: Project[] = [
     reverse: true,
   },
   {
-    name: 'Kapient — Website Error Monitoring',
+    name: 'Kapient . Website Error Monitoring',
     tagline: 'Website Monitoring SaaS',
     description:
-      'Built a website-monitoring SaaS platform from scratch with Laravel, PHP, and Bootstrap — scanning sites across 74+ technical and quality factors (SEO, HTTPS, uptime, Core Web Vitals) and alerting businesses before errors cost them customers. Automated background scans with cron jobs and queues.',
+      'Built a website-monitoring SaaS platform from scratch with Laravel, PHP, and Bootstrap . scanning sites across 74+ technical and quality factors (SEO, HTTPS, uptime, Core Web Vitals) and alerting businesses before errors cost them customers. Automated background scans with cron jobs and queues.',
     category: 'Website Monitoring SaaS',
     stack: ['Laravel', 'PHP', 'MySQL', 'Bootstrap'],
     tags: ['PHP', 'Laravel', 'MySQL', 'Bootstrap'],
@@ -224,7 +224,7 @@ export const projects: Project[] = [
     reverse: true,
   },
   {
-    name: 'Utilidata — Grid Optimization Platform',
+    name: 'Utilidata . Grid Optimization Platform',
     tagline: 'Energy Tech',
     description:
       'Enhanced and maintained software infrastructure for Utilidata\'s Karman AI power-orchestration platform, improving performance for large-scale energy management systems in an agile, cross-functional team.',
@@ -240,10 +240,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: 'Med-Future — Hospital Management Portal',
+    name: 'Med-Future . Hospital Management Portal',
     tagline: 'Healthcare EHR',
     description:
-      'Built hospital management portals covering registration, appointments, EHR, billing, and role-based access control for healthcare workflows across the US, UK, and New Zealand — cutting patient onboarding time by 20%.',
+      'Built hospital management portals covering registration, appointments, EHR, billing, and role-based access control for healthcare workflows across the US, UK, and New Zealand . cutting patient onboarding time by 20%.',
     category: 'Healthcare',
     stack: ['Laravel', 'MySQL', 'JavaScript', 'Ajax'],
     tags: ['Laravel', 'MySQL', 'JavaScript', 'Ajax'],
@@ -256,10 +256,10 @@ export const projects: Project[] = [
     reverse: true,
   },
   {
-    name: 'Biblepics — AI Bible Search & Localization',
+    name: 'Biblepics . AI Bible Search & Localization',
     tagline: 'AI Search & Localization',
     description:
-      'Built GPT-3-powered Bible AI search and chat features for biblepics.co, plus English and Hebrew localization — including bidirectional text handling and language switching — contributing to a 15% increase in engagement.',
+      'Built GPT-3-powered Bible AI search and chat features for biblepics.co, plus English and Hebrew localization . including bidirectional text handling and language switching . contributing to a 15% increase in engagement.',
     category: 'Localization',
     stack: ['Django', 'OpenAI GPT-3', 'PostgreSQL'],
     tags: ['Django', 'OpenAI GPT-3', 'PostgreSQL', 'Localization'],
@@ -276,7 +276,7 @@ export const projects: Project[] = [
     name: 'CRM for Transaction Tracking',
     tagline: 'Data & Analytics',
     description:
-      'Developed a CRM for tracking transactions across multiple internal products, with CSV import, analytics, and visualization — reducing manual errors and improving efficiency by 20%.',
+      'Developed a CRM for tracking transactions across multiple internal products, with CSV import, analytics, and visualization . reducing manual errors and improving efficiency by 20%.',
     category: 'Data & Analytics',
     stack: ['Python', 'Django', 'CSV Parsing', 'Data Viz'],
     tags: ['Python', 'Django', 'CSV Parsing', 'Data Viz'],
@@ -291,7 +291,7 @@ export const projects: Project[] = [
     name: 'Subscription Platform Builders',
     tagline: 'SaaS Platforms',
     description:
-      'Built a family of subscription platforms — Literal, Regular, and Monitor Builder, plus Regular Drive — for creating web/landing pages and secure data storage, integrating Trustpay, Purepay, and MaxPay and driving engagement gains of 15–30%.',
+      'Built a family of subscription platforms . Literal, Regular, and Monitor Builder, plus Regular Drive . for creating web/landing pages and secure data storage, integrating Trustpay, Purepay, and MaxPay and driving engagement gains of 15–30%.',
     category: 'SaaS Platforms',
     stack: ['Laravel', 'Angular', 'React', 'TypeScript'],
     tags: ['Laravel', 'Angular', 'React', 'TypeScript'],
@@ -307,7 +307,7 @@ export const projects: Project[] = [
     name: 'Business Automation Platforms',
     tagline: 'Ops Automation',
     description:
-      'Optimized database design and built automated order-tracking and notification workflows for Erista, Report Detective, and My Month-End — improving operational flow and UI quality across all three.',
+      'Optimized database design and built automated order-tracking and notification workflows for Erista, Report Detective, and My Month-End . improving operational flow and UI quality across all three.',
     category: 'Ops Automation',
     stack: ['Laravel', 'MySQL', 'Ajax', 'jQuery'],
     tags: ['Laravel', 'MySQL', 'Ajax', 'jQuery'],
@@ -322,7 +322,7 @@ export const projects: Project[] = [
     name: 'Secure Auth & Payment APIs',
     tagline: 'Auth & Payments',
     description:
-      'Built Touch Safe and Ten Boosts — REST APIs and secure workflows for authentication, payment processing, and data exchange, paired with dynamic JavaScript/Ajax interfaces.',
+      'Built Touch Safe and Ten Boosts . REST APIs and secure workflows for authentication, payment processing, and data exchange, paired with dynamic JavaScript/Ajax interfaces.',
     category: 'Auth & Payments',
     stack: ['Python', 'Django REST Framework', 'SQLite'],
     tags: ['Python', 'Django REST Framework', 'SQLite'],

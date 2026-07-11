@@ -59,7 +59,7 @@ function ProjectCarousel({
               <div className="aspect-[9/19.5] h-full max-h-[380px] overflow-hidden rounded-[1.75rem] border-[6px] border-ink-800 bg-ink-900 shadow-2xl">
                 <img
                   src={assetUrl(img.src)}
-                  alt={`${projectName} — ${img.label}`}
+                  alt={`${projectName} . ${img.label}`}
                   loading="lazy"
                   className="h-full w-full object-cover"
                 />
@@ -73,7 +73,7 @@ function ProjectCarousel({
                 </div>
                 <img
                   src={assetUrl(img.src)}
-                  alt={`${projectName} — ${img.label}`}
+                  alt={`${projectName} . ${img.label}`}
                   loading="lazy"
                   className="max-h-[340px] w-full object-contain"
                 />
@@ -181,7 +181,7 @@ export default function Projects() {
             Real platforms built in production
           </h2>
           <p className="mt-4 text-base text-ink-400 md:text-lg">
-            Real platforms built across full-time engineering roles and client engagements — spanning HR-tech, civic-tech, healthcare, energy, and SaaS.
+            Real platforms built across full-time engineering roles and client engagements . spanning HR-tech, civic-tech, healthcare, energy, and SaaS.
           </p>
         </div>
 
