@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { projects, projectFilters, type Project, type ProjectImage } from '../data';
 
 const accentMap: Record<string, { ring: string; text: string; bg: string; dot: string }> = {
@@ -166,11 +166,6 @@ function ProjectShowcase({ project, index }: { project: Project; index: number }
 export default function Projects() {
   const [filter, setFilter] = useState('All');
 
-  const filtered = useMemo(
-    () => (filter === 'All' ? projects : projects.filter((p) => p.filters.includes(filter))),
-    [filter]
-  );
-
   return (
     <section id="projects" className="section-pad relative">
       <div className="absolute inset-0 -z-10 bg-grid opacity-20" />
@@ -209,9 +204,14 @@ export default function Projects() {
 
         {/* Showcases */}
         <div className="mt-12 flex flex-col gap-8">
-          {filtered.map((project, i) => (
-            <ProjectShowcase key={project.name} project={project} index={i} />
-          ))}
+          {projects.map((project, i) => {
+            const visible = filter === 'All' || project.filters.includes(filter);
+            return (
+              <div key={project.name} className={visible ? undefined : 'hidden'}>
+                <ProjectShowcase project={project} index={i} />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
