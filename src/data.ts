@@ -10,10 +10,10 @@ export const profile = {
 };
 
 export const stats = [
-  { label: 'Total Earnings', value: 33, prefix: '$', suffix: 'K+', decimals: 0 },
-  { label: 'Jobs Completed', value: 9, prefix: '', suffix: '', decimals: 0 },
-  { label: 'Total Hours', value: 227, prefix: '', suffix: '', decimals: 0 },
+  { label: 'Total Projects', value: 50, prefix: '', suffix: '+', decimals: 0 },
+  { label: 'Years Experience', value: 5, prefix: '', suffix: '+', decimals: 0 },
   { label: 'Job Success', value: 100, prefix: '', suffix: '%', decimals: 0 },
+  { label: '5-Star Reviews', value: 27, prefix: '', suffix: '+', decimals: 0 },
 ];
 
 export const skillCategories = [
