@@ -79,7 +79,7 @@ export default function Testimonials() {
             Real feedback from completed projects
           </h2>
           <p className="mt-4 text-base text-ink-400 md:text-lg">
-            {testimonials.length}+ five-star reviews from clients on Upwork . trusted to deliver clean, scalable, and well-structured solutions on time.
+            {testimonials.length}+ five-star client reviews — trusted to deliver clean, scalable, and well-structured solutions on time.
           </p>
         </div>
       </div>

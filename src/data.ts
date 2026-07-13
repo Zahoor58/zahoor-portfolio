@@ -4,7 +4,6 @@ export const profile = {
   tagline: 'Laravel, PHP & Django Specialist',
   bio: 'Senior software engineer with 5+ years building backend systems and APIs for SaaS, healthcare, energy, and civic-tech platforms . currently at HBOX Digital, previously Mixvoip and Techleadz. I specialize in Laravel, PHP, and Django, turning complex requirements into secure, production-ready systems that scale.',
   github: 'https://github.com/Zahoor58',
-  upwork: 'https://www.upwork.com/freelancers/~0164a665214b44c653',
   location: 'Lahore, Pakistan',
   availableFor: 'Full-time roles, remote or on-site positions, and freelance/contract work.',
 };

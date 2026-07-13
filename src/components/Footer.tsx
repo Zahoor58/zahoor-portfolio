@@ -1,4 +1,4 @@
-import { Code2, ArrowUp, Github, Briefcase } from 'lucide-react';
+import { Code2, ArrowUp, Github } from 'lucide-react';
 import { profile } from '../data';
 
 export default function Footer() {
@@ -35,15 +35,6 @@ export default function Footer() {
               aria-label="GitHub"
             >
               <Github className="h-4 w-4" />
-            </a>
-            <a
-              href={profile.upwork}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-xl border border-ink-700 text-ink-300 transition-all duration-300 hover:border-accent-500/40 hover:text-accent-400 hover:-translate-y-0.5"
-              aria-label="Upwork"
-            >
-              <Briefcase className="h-4 w-4" />
             </a>
             <a
               href="#home"

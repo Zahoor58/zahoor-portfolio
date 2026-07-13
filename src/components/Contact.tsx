@@ -1,4 +1,4 @@
-import { Briefcase, MapPin, Github, Clock } from 'lucide-react';
+import { MapPin, Github, Clock, Zap } from 'lucide-react';
 import { profile } from '../data';
 
 export default function Contact() {
@@ -32,11 +32,7 @@ export default function Contact() {
 
             {/* CTA buttons */}
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-              <a href={profile.upwork} target="_blank" rel="noopener noreferrer" className="btn-primary">
-                <Briefcase className="h-4 w-4" />
-                Hire me on Upwork ↗
-              </a>
-              <a href={profile.github} target="_blank" rel="noopener noreferrer" className="btn-ghost">
+              <a href={profile.github} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 <Github className="h-4 w-4" />
                 View GitHub ↗
               </a>
@@ -49,10 +45,8 @@ export default function Contact() {
                 {profile.location}
               </div>
               <div className="flex items-center justify-center gap-2.5 text-sm text-ink-300">
-                <Briefcase className="h-4 w-4 text-accent-400" />
-                <a href={profile.upwork} target="_blank" rel="noopener noreferrer" className="hover:text-accent-400">
-                  Upwork Profile
-                </a>
+                <Zap className="h-4 w-4 text-accent-400" />
+                Replies within 24h
               </div>
               <div className="flex items-center justify-center gap-2.5 text-sm text-ink-300">
                 <Clock className="h-4 w-4 text-accent-400" />
